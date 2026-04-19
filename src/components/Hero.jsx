@@ -21,7 +21,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-4xl md:text-7xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-6"
+          className="text-4xl md:text-7xl font-extrabold text-black dark:text-white tracking-tight mb-6"
         >
           Building Digital <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-teal-300">Experiences That Matter</span>
